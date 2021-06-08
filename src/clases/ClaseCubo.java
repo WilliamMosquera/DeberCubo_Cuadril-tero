@@ -22,7 +22,7 @@ int a, h, p;
         
         ClaseCubo ob1 = new ClaseCubo();
         resultado = ob1.calculavolumen(3, 2, 6);
-        System.out.println("volumen="+resultado);
+        System.out.println("El volumen es ="+resultado);
         
    
         
