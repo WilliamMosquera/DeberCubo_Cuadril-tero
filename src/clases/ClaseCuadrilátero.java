@@ -21,14 +21,14 @@ public class ClaseCuadrilátero {
     }
     public static void main(String[] args){
     ClaseCuadrilátero ob1 = new ClaseCuadrilátero(6 ,4 );
-        System.out.println("rectangualo");
-        System.out.println("area="+ob1.area());
-        System.out.println("perimetro="+ob1.perimetro());
+        System.out.println("Rectángualo: ");
+        System.out.println("El área del rectángulo es = "+ob1.area());
+        System.out.println("El perímetro del rectángulo es = "+ob1.perimetro());
 
         ClaseCuadrilátero ob2 = new ClaseCuadrilátero(10);
-        System.out.println("cuadrado");
-        System.out.println("area="+ob2.area());
-        System.out.println("perimetro="+ob2.perimetro());
+        System.out.println("Cuadrado: ");
+        System.out.println("El área del cuadrado es = "+ob2.area());
+        System.out.println("El perímetro del cuadrado es = "+ob2.perimetro());
         
     }
 }
